@@ -203,7 +203,7 @@ DEPENDENCIES
   byebug
   guard-rspec
   jquery-rails
-  pg (~> 0.21)
+  pg
   rails (= 4.2.11)
   rails_12factor
   rspec-rails
