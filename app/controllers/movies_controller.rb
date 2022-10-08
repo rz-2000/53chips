@@ -10,6 +10,8 @@ class MoviesController < ApplicationController
       @movies = Movie.all
       @all_ratings = Movie.all_ratings
       @ratings_to_show=params[:ratings]
+      @sort_choice = params[:sort]
+      
     end
   
     def new
